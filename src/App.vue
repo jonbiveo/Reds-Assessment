@@ -30,6 +30,4 @@
   color: #42b983;
 }
 
-#main {
-}
 </style>
