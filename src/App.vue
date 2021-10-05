@@ -1,11 +1,14 @@
 <template>
-  <div id="nav">
-    <router-link to="/">Home</router-link>
+  <div id="main">
+    <router-view/>
   </div>
-  <router-view/>
 </template>
 
 <style>
+* {
+  background-color: rgb(252, 79, 79);
+}
+
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -25,5 +28,8 @@
 
 #nav a.router-link-exact-active {
   color: #42b983;
+}
+
+#main {
 }
 </style>
