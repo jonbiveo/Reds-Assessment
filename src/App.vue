@@ -6,7 +6,7 @@
 
 <style>
 * {
-  background-color: rgb(252, 79, 79);
+  background-color: #C6011F;
 }
 
 #app {
